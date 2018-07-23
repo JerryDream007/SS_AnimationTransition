@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F4A445C2100882300074E76 /* AnimationMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4A445B2100882300074E76 /* AnimationMask.m */; };
+		6F4A44612100930E00074E76 /* CommonMaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4A445F2100930E00074E76 /* CommonMaskViewController.m */; };
+		6F4A44622100930E00074E76 /* CommonMaskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F4A44602100930E00074E76 /* CommonMaskViewController.xib */; };
+		6F4A44662100931C00074E76 /* CommonMaskDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4A44642100931C00074E76 /* CommonMaskDetailViewController.m */; };
+		6F4A44672100931C00074E76 /* CommonMaskDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F4A44652100931C00074E76 /* CommonMaskDetailViewController.xib */; };
+		6F52EC8420F844A6001E8D18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F52EC8320F844A6001E8D18 /* AppDelegate.m */; };
+		6F52EC8720F844A6001E8D18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F52EC8620F844A6001E8D18 /* ViewController.m */; };
+		6F52EC8A20F844A6001E8D18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F52EC8820F844A6001E8D18 /* Main.storyboard */; };
+		6F52EC8C20F844A7001E8D18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F52EC8B20F844A7001E8D18 /* Assets.xcassets */; };
+		6F52EC8F20F844A7001E8D18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F52EC8D20F844A7001E8D18 /* LaunchScreen.storyboard */; };
+		6F52EC9220F844A7001E8D18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F52EC9120F844A7001E8D18 /* main.m */; };
+		6F52EC9C20F844A7001E8D18 /* AnimationTransitionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F52EC9B20F844A7001E8D18 /* AnimationTransitionDemoTests.m */; };
+		6F52ECA720F844A7001E8D18 /* AnimationTransitionDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F52ECA620F844A7001E8D18 /* AnimationTransitionDemoUITests.m */; };
+		6F52ECB720F845B1001E8D18 /* UIViewController+AnimationTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F52ECB620F845B1001E8D18 /* UIViewController+AnimationTransition.m */; };
+		6F52ECBA20F845F4001E8D18 /* UINavigationController+AnimationTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F52ECB920F845F4001E8D18 /* UINavigationController+AnimationTransition.m */; };
+		6F52ECBE20F849A0001E8D18 /* AnimationInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F52ECBD20F849A0001E8D18 /* AnimationInteractiveTransition.m */; };
+		6F52ECC320F87F1A001E8D18 /* AnimationMagicMove.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F52ECC220F87F1A001E8D18 /* AnimationMagicMove.m */; };
+		6F52ECC820F88089001E8D18 /* CommonMagicMoveAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F52ECC620F88089001E8D18 /* CommonMagicMoveAnimationViewController.m */; };
+		6F52ECC920F88089001E8D18 /* CommonMagicMoveAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F52ECC720F88089001E8D18 /* CommonMagicMoveAnimationViewController.xib */; };
+		6F52ECCE20F888E7001E8D18 /* CommonMagicMoveDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F52ECCC20F888E7001E8D18 /* CommonMagicMoveDetailViewController.m */; };
+		6F52ECCF20F888E7001E8D18 /* CommonMagicMoveDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F52ECCD20F888E7001E8D18 /* CommonMagicMoveDetailViewController.xib */; };
+		6F52ECD320F88AD1001E8D18 /* CommonMagicMoveCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F52ECD120F88AD1001E8D18 /* CommonMagicMoveCollectionViewCell.m */; };
+		6F52ECD420F88AD1001E8D18 /* CommonMagicMoveCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F52ECD220F88AD1001E8D18 /* CommonMagicMoveCollectionViewCell.xib */; };
+		6F5EBC1020FDDCAF0052F8EA /* CommonTikTokDetailCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5EBC0E20FDDCAF0052F8EA /* CommonTikTokDetailCollectionViewCell.m */; };
+		6F5EBC1120FDDCAF0052F8EA /* CommonTikTokDetailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F5EBC0F20FDDCAF0052F8EA /* CommonTikTokDetailCollectionViewCell.xib */; };
+		6F5EBC1420FDEDF30052F8EA /* AnimationTikTok.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5EBC1320FDEDF30052F8EA /* AnimationTikTok.m */; };
+		6F71D82820FC700900C5789F /* AnimationSmooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F71D82720FC700900C5789F /* AnimationSmooth.m */; };
+		6F71D82B20FC740500C5789F /* AnimationEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F71D82A20FC740500C5789F /* AnimationEffects.m */; };
+		6F71D83020FC7C1D00C5789F /* CommonSmoothViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F71D82E20FC7C1D00C5789F /* CommonSmoothViewController.m */; };
+		6F71D83120FC7C1D00C5789F /* CommonSmoothViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F71D82F20FC7C1D00C5789F /* CommonSmoothViewController.xib */; };
+		6F71D83620FC9E3800C5789F /* CommonTikTokCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F71D83420FC9E3800C5789F /* CommonTikTokCommentViewController.m */; };
+		6F71D83720FC9E3800C5789F /* CommonTikTokCommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F71D83520FC9E3800C5789F /* CommonTikTokCommentViewController.xib */; };
+		6F71D83A20FC9F2000C5789F /* CommonTikTokDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F71D83920FC9F2000C5789F /* CommonTikTokDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F52EC9820F844A7001E8D18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F52EC7720F844A6001E8D18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F52EC7E20F844A6001E8D18;
+			remoteInfo = AnimationTransitionDemo;
+		};
+		6F52ECA320F844A7001E8D18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F52EC7720F844A6001E8D18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F52EC7E20F844A6001E8D18;
+			remoteInfo = AnimationTransitionDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F4A445A2100882300074E76 /* AnimationMask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationMask.h; sourceTree = "<group>"; };
+		6F4A445B2100882300074E76 /* AnimationMask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationMask.m; sourceTree = "<group>"; };
+		6F4A445E2100930E00074E76 /* CommonMaskViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonMaskViewController.h; sourceTree = "<group>"; };
+		6F4A445F2100930E00074E76 /* CommonMaskViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonMaskViewController.m; sourceTree = "<group>"; };
+		6F4A44602100930E00074E76 /* CommonMaskViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommonMaskViewController.xib; sourceTree = "<group>"; };
+		6F4A44632100931C00074E76 /* CommonMaskDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonMaskDetailViewController.h; sourceTree = "<group>"; };
+		6F4A44642100931C00074E76 /* CommonMaskDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonMaskDetailViewController.m; sourceTree = "<group>"; };
+		6F4A44652100931C00074E76 /* CommonMaskDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommonMaskDetailViewController.xib; sourceTree = "<group>"; };
+		6F52EC7F20F844A6001E8D18 /* AnimationTransitionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationTransitionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F52EC8220F844A6001E8D18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F52EC8320F844A6001E8D18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6F52EC8520F844A6001E8D18 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6F52EC8620F844A6001E8D18 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6F52EC8920F844A6001E8D18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F52EC8B20F844A7001E8D18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F52EC8E20F844A7001E8D18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F52EC9020F844A7001E8D18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F52EC9120F844A7001E8D18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F52EC9720F844A7001E8D18 /* AnimationTransitionDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationTransitionDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F52EC9B20F844A7001E8D18 /* AnimationTransitionDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationTransitionDemoTests.m; sourceTree = "<group>"; };
+		6F52EC9D20F844A7001E8D18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F52ECA220F844A7001E8D18 /* AnimationTransitionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationTransitionDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F52ECA620F844A7001E8D18 /* AnimationTransitionDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationTransitionDemoUITests.m; sourceTree = "<group>"; };
+		6F52ECA820F844A7001E8D18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F52ECB520F845B1001E8D18 /* UIViewController+AnimationTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AnimationTransition.h"; sourceTree = "<group>"; };
+		6F52ECB620F845B1001E8D18 /* UIViewController+AnimationTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AnimationTransition.m"; sourceTree = "<group>"; };
+		6F52ECB820F845F4001E8D18 /* UINavigationController+AnimationTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+AnimationTransition.h"; sourceTree = "<group>"; };
+		6F52ECB920F845F4001E8D18 /* UINavigationController+AnimationTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+AnimationTransition.m"; sourceTree = "<group>"; };
+		6F52ECBB20F8466C001E8D18 /* AnimationTransitionConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationTransitionConfig.h; sourceTree = "<group>"; };
+		6F52ECBC20F849A0001E8D18 /* AnimationInteractiveTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationInteractiveTransition.h; sourceTree = "<group>"; };
+		6F52ECBD20F849A0001E8D18 /* AnimationInteractiveTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationInteractiveTransition.m; sourceTree = "<group>"; };
+		6F52ECBF20F87D2D001E8D18 /* AnimationTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationTransition.h; sourceTree = "<group>"; };
+		6F52ECC120F87F1A001E8D18 /* AnimationMagicMove.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationMagicMove.h; sourceTree = "<group>"; };
+		6F52ECC220F87F1A001E8D18 /* AnimationMagicMove.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationMagicMove.m; sourceTree = "<group>"; };
+		6F52ECC520F88089001E8D18 /* CommonMagicMoveAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonMagicMoveAnimationViewController.h; sourceTree = "<group>"; };
+		6F52ECC620F88089001E8D18 /* CommonMagicMoveAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonMagicMoveAnimationViewController.m; sourceTree = "<group>"; };
+		6F52ECC720F88089001E8D18 /* CommonMagicMoveAnimationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommonMagicMoveAnimationViewController.xib; sourceTree = "<group>"; };
+		6F52ECCB20F888E7001E8D18 /* CommonMagicMoveDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonMagicMoveDetailViewController.h; sourceTree = "<group>"; };
+		6F52ECCC20F888E7001E8D18 /* CommonMagicMoveDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonMagicMoveDetailViewController.m; sourceTree = "<group>"; };
+		6F52ECCD20F888E7001E8D18 /* CommonMagicMoveDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommonMagicMoveDetailViewController.xib; sourceTree = "<group>"; };
+		6F52ECD020F88AD1001E8D18 /* CommonMagicMoveCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonMagicMoveCollectionViewCell.h; sourceTree = "<group>"; };
+		6F52ECD120F88AD1001E8D18 /* CommonMagicMoveCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonMagicMoveCollectionViewCell.m; sourceTree = "<group>"; };
+		6F52ECD220F88AD1001E8D18 /* CommonMagicMoveCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommonMagicMoveCollectionViewCell.xib; sourceTree = "<group>"; };
+		6F5EBC0D20FDDCAF0052F8EA /* CommonTikTokDetailCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonTikTokDetailCollectionViewCell.h; sourceTree = "<group>"; };
+		6F5EBC0E20FDDCAF0052F8EA /* CommonTikTokDetailCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonTikTokDetailCollectionViewCell.m; sourceTree = "<group>"; };
+		6F5EBC0F20FDDCAF0052F8EA /* CommonTikTokDetailCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommonTikTokDetailCollectionViewCell.xib; sourceTree = "<group>"; };
+		6F5EBC1220FDEDF30052F8EA /* AnimationTikTok.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationTikTok.h; sourceTree = "<group>"; };
+		6F5EBC1320FDEDF30052F8EA /* AnimationTikTok.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationTikTok.m; sourceTree = "<group>"; };
+		6F71D82620FC700900C5789F /* AnimationSmooth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationSmooth.h; sourceTree = "<group>"; };
+		6F71D82720FC700900C5789F /* AnimationSmooth.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationSmooth.m; sourceTree = "<group>"; };
+		6F71D82920FC740500C5789F /* AnimationEffects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationEffects.h; sourceTree = "<group>"; };
+		6F71D82A20FC740500C5789F /* AnimationEffects.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationEffects.m; sourceTree = "<group>"; };
+		6F71D82D20FC7C1D00C5789F /* CommonSmoothViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonSmoothViewController.h; sourceTree = "<group>"; };
+		6F71D82E20FC7C1D00C5789F /* CommonSmoothViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonSmoothViewController.m; sourceTree = "<group>"; };
+		6F71D82F20FC7C1D00C5789F /* CommonSmoothViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommonSmoothViewController.xib; sourceTree = "<group>"; };
+		6F71D83320FC9E3800C5789F /* CommonTikTokCommentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonTikTokCommentViewController.h; sourceTree = "<group>"; };
+		6F71D83420FC9E3800C5789F /* CommonTikTokCommentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonTikTokCommentViewController.m; sourceTree = "<group>"; };
+		6F71D83520FC9E3800C5789F /* CommonTikTokCommentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommonTikTokCommentViewController.xib; sourceTree = "<group>"; };
+		6F71D83820FC9F2000C5789F /* CommonTikTokDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonTikTokDetailViewController.h; sourceTree = "<group>"; };
+		6F71D83920FC9F2000C5789F /* CommonTikTokDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonTikTokDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F52EC7C20F844A6001E8D18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F52EC9420F844A7001E8D18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F52EC9F20F844A7001E8D18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F4A445D210092F700074E76 /* MaskAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				6F4A445E2100930E00074E76 /* CommonMaskViewController.h */,
+				6F4A445F2100930E00074E76 /* CommonMaskViewController.m */,
+				6F4A44602100930E00074E76 /* CommonMaskViewController.xib */,
+				6F4A44632100931C00074E76 /* CommonMaskDetailViewController.h */,
+				6F4A44642100931C00074E76 /* CommonMaskDetailViewController.m */,
+				6F4A44652100931C00074E76 /* CommonMaskDetailViewController.xib */,
+			);
+			path = MaskAnimation;
+			sourceTree = "<group>";
+		};
+		6F52EC7620F844A6001E8D18 = {
+			isa = PBXGroup;
+			children = (
+				6F52EC8120F844A6001E8D18 /* AnimationTransitionDemo */,
+				6F52EC9A20F844A7001E8D18 /* AnimationTransitionDemoTests */,
+				6F52ECA520F844A7001E8D18 /* AnimationTransitionDemoUITests */,
+				6F52EC8020F844A6001E8D18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F52EC8020F844A6001E8D18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F52EC7F20F844A6001E8D18 /* AnimationTransitionDemo.app */,
+				6F52EC9720F844A7001E8D18 /* AnimationTransitionDemoTests.xctest */,
+				6F52ECA220F844A7001E8D18 /* AnimationTransitionDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F52EC8120F844A6001E8D18 /* AnimationTransitionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6F52ECB420F844B9001E8D18 /* AnimationTransition */,
+				6F52ECC420F8801D001E8D18 /* CommonTransitionAnimation */,
+				6F52EC8220F844A6001E8D18 /* AppDelegate.h */,
+				6F52EC8320F844A6001E8D18 /* AppDelegate.m */,
+				6F52EC8520F844A6001E8D18 /* ViewController.h */,
+				6F52EC8620F844A6001E8D18 /* ViewController.m */,
+				6F52EC8820F844A6001E8D18 /* Main.storyboard */,
+				6F52EC8B20F844A7001E8D18 /* Assets.xcassets */,
+				6F52EC8D20F844A7001E8D18 /* LaunchScreen.storyboard */,
+				6F52EC9020F844A7001E8D18 /* Info.plist */,
+				6F52EC9120F844A7001E8D18 /* main.m */,
+			);
+			path = AnimationTransitionDemo;
+			sourceTree = "<group>";
+		};
+		6F52EC9A20F844A7001E8D18 /* AnimationTransitionDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F52EC9B20F844A7001E8D18 /* AnimationTransitionDemoTests.m */,
+				6F52EC9D20F844A7001E8D18 /* Info.plist */,
+			);
+			path = AnimationTransitionDemoTests;
+			sourceTree = "<group>";
+		};
+		6F52ECA520F844A7001E8D18 /* AnimationTransitionDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F52ECA620F844A7001E8D18 /* AnimationTransitionDemoUITests.m */,
+				6F52ECA820F844A7001E8D18 /* Info.plist */,
+			);
+			path = AnimationTransitionDemoUITests;
+			sourceTree = "<group>";
+		};
+		6F52ECB420F844B9001E8D18 /* AnimationTransition */ = {
+			isa = PBXGroup;
+			children = (
+				6F52ECC020F87EBA001E8D18 /* AnimationEffects */,
+				6F52ECBF20F87D2D001E8D18 /* AnimationTransition.h */,
+				6F52ECBB20F8466C001E8D18 /* AnimationTransitionConfig.h */,
+				6F52ECB520F845B1001E8D18 /* UIViewController+AnimationTransition.h */,
+				6F52ECB620F845B1001E8D18 /* UIViewController+AnimationTransition.m */,
+				6F52ECB820F845F4001E8D18 /* UINavigationController+AnimationTransition.h */,
+				6F52ECB920F845F4001E8D18 /* UINavigationController+AnimationTransition.m */,
+				6F52ECBC20F849A0001E8D18 /* AnimationInteractiveTransition.h */,
+				6F52ECBD20F849A0001E8D18 /* AnimationInteractiveTransition.m */,
+			);
+			path = AnimationTransition;
+			sourceTree = "<group>";
+		};
+		6F52ECC020F87EBA001E8D18 /* AnimationEffects */ = {
+			isa = PBXGroup;
+			children = (
+				6F71D82920FC740500C5789F /* AnimationEffects.h */,
+				6F71D82A20FC740500C5789F /* AnimationEffects.m */,
+				6F52ECC120F87F1A001E8D18 /* AnimationMagicMove.h */,
+				6F52ECC220F87F1A001E8D18 /* AnimationMagicMove.m */,
+				6F71D82620FC700900C5789F /* AnimationSmooth.h */,
+				6F71D82720FC700900C5789F /* AnimationSmooth.m */,
+				6F5EBC1220FDEDF30052F8EA /* AnimationTikTok.h */,
+				6F5EBC1320FDEDF30052F8EA /* AnimationTikTok.m */,
+				6F4A445A2100882300074E76 /* AnimationMask.h */,
+				6F4A445B2100882300074E76 /* AnimationMask.m */,
+			);
+			path = AnimationEffects;
+			sourceTree = "<group>";
+		};
+		6F52ECC420F8801D001E8D18 /* CommonTransitionAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				6F4A445D210092F700074E76 /* MaskAnimation */,
+				6F71D83220FC9D7100C5789F /* TikTokComment */,
+				6F71D82C20FC7C0400C5789F /* Smooth */,
+				6F52ECCA20F888B6001E8D18 /* MagicMove */,
+			);
+			path = CommonTransitionAnimation;
+			sourceTree = "<group>";
+		};
+		6F52ECCA20F888B6001E8D18 /* MagicMove */ = {
+			isa = PBXGroup;
+			children = (
+				6F52ECC520F88089001E8D18 /* CommonMagicMoveAnimationViewController.h */,
+				6F52ECC620F88089001E8D18 /* CommonMagicMoveAnimationViewController.m */,
+				6F52ECC720F88089001E8D18 /* CommonMagicMoveAnimationViewController.xib */,
+				6F52ECCB20F888E7001E8D18 /* CommonMagicMoveDetailViewController.h */,
+				6F52ECCC20F888E7001E8D18 /* CommonMagicMoveDetailViewController.m */,
+				6F52ECCD20F888E7001E8D18 /* CommonMagicMoveDetailViewController.xib */,
+				6F52ECD020F88AD1001E8D18 /* CommonMagicMoveCollectionViewCell.h */,
+				6F52ECD120F88AD1001E8D18 /* CommonMagicMoveCollectionViewCell.m */,
+				6F52ECD220F88AD1001E8D18 /* CommonMagicMoveCollectionViewCell.xib */,
+			);
+			path = MagicMove;
+			sourceTree = "<group>";
+		};
+		6F71D82C20FC7C0400C5789F /* Smooth */ = {
+			isa = PBXGroup;
+			children = (
+				6F71D82D20FC7C1D00C5789F /* CommonSmoothViewController.h */,
+				6F71D82E20FC7C1D00C5789F /* CommonSmoothViewController.m */,
+				6F71D82F20FC7C1D00C5789F /* CommonSmoothViewController.xib */,
+			);
+			path = Smooth;
+			sourceTree = "<group>";
+		};
+		6F71D83220FC9D7100C5789F /* TikTokComment */ = {
+			isa = PBXGroup;
+			children = (
+				6F71D83320FC9E3800C5789F /* CommonTikTokCommentViewController.h */,
+				6F71D83420FC9E3800C5789F /* CommonTikTokCommentViewController.m */,
+				6F71D83520FC9E3800C5789F /* CommonTikTokCommentViewController.xib */,
+				6F71D83820FC9F2000C5789F /* CommonTikTokDetailViewController.h */,
+				6F71D83920FC9F2000C5789F /* CommonTikTokDetailViewController.m */,
+				6F5EBC0D20FDDCAF0052F8EA /* CommonTikTokDetailCollectionViewCell.h */,
+				6F5EBC0E20FDDCAF0052F8EA /* CommonTikTokDetailCollectionViewCell.m */,
+				6F5EBC0F20FDDCAF0052F8EA /* CommonTikTokDetailCollectionViewCell.xib */,
+			);
+			path = TikTokComment;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F52EC7E20F844A6001E8D18 /* AnimationTransitionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F52ECAB20F844A7001E8D18 /* Build configuration list for PBXNativeTarget "AnimationTransitionDemo" */;
+			buildPhases = (
+				6F52EC7B20F844A6001E8D18 /* Sources */,
+				6F52EC7C20F844A6001E8D18 /* Frameworks */,
+				6F52EC7D20F844A6001E8D18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimationTransitionDemo;
+			productName = AnimationTransitionDemo;
+			productReference = 6F52EC7F20F844A6001E8D18 /* AnimationTransitionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F52EC9620F844A7001E8D18 /* AnimationTransitionDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F52ECAE20F844A7001E8D18 /* Build configuration list for PBXNativeTarget "AnimationTransitionDemoTests" */;
+			buildPhases = (
+				6F52EC9320F844A7001E8D18 /* Sources */,
+				6F52EC9420F844A7001E8D18 /* Frameworks */,
+				6F52EC9520F844A7001E8D18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F52EC9920F844A7001E8D18 /* PBXTargetDependency */,
+			);
+			name = AnimationTransitionDemoTests;
+			productName = AnimationTransitionDemoTests;
+			productReference = 6F52EC9720F844A7001E8D18 /* AnimationTransitionDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F52ECA120F844A7001E8D18 /* AnimationTransitionDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F52ECB120F844A7001E8D18 /* Build configuration list for PBXNativeTarget "AnimationTransitionDemoUITests" */;
+			buildPhases = (
+				6F52EC9E20F844A7001E8D18 /* Sources */,
+				6F52EC9F20F844A7001E8D18 /* Frameworks */,
+				6F52ECA020F844A7001E8D18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F52ECA420F844A7001E8D18 /* PBXTargetDependency */,
+			);
+			name = AnimationTransitionDemoUITests;
+			productName = AnimationTransitionDemoUITests;
+			productReference = 6F52ECA220F844A7001E8D18 /* AnimationTransitionDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F52EC7720F844A6001E8D18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "宋澎";
+				TargetAttributes = {
+					6F52EC7E20F844A6001E8D18 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					6F52EC9620F844A7001E8D18 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 6F52EC7E20F844A6001E8D18;
+					};
+					6F52ECA120F844A7001E8D18 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 6F52EC7E20F844A6001E8D18;
+					};
+				};
+			};
+			buildConfigurationList = 6F52EC7A20F844A6001E8D18 /* Build configuration list for PBXProject "AnimationTransitionDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F52EC7620F844A6001E8D18;
+			productRefGroup = 6F52EC8020F844A6001E8D18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F52EC7E20F844A6001E8D18 /* AnimationTransitionDemo */,
+				6F52EC9620F844A7001E8D18 /* AnimationTransitionDemoTests */,
+				6F52ECA120F844A7001E8D18 /* AnimationTransitionDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F52EC7D20F844A6001E8D18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F71D83120FC7C1D00C5789F /* CommonSmoothViewController.xib in Resources */,
+				6F4A44622100930E00074E76 /* CommonMaskViewController.xib in Resources */,
+				6F52EC8F20F844A7001E8D18 /* LaunchScreen.storyboard in Resources */,
+				6F52EC8C20F844A7001E8D18 /* Assets.xcassets in Resources */,
+				6F52ECD420F88AD1001E8D18 /* CommonMagicMoveCollectionViewCell.xib in Resources */,
+				6F52ECCF20F888E7001E8D18 /* CommonMagicMoveDetailViewController.xib in Resources */,
+				6F52EC8A20F844A6001E8D18 /* Main.storyboard in Resources */,
+				6F52ECC920F88089001E8D18 /* CommonMagicMoveAnimationViewController.xib in Resources */,
+				6F5EBC1120FDDCAF0052F8EA /* CommonTikTokDetailCollectionViewCell.xib in Resources */,
+				6F71D83720FC9E3800C5789F /* CommonTikTokCommentViewController.xib in Resources */,
+				6F4A44672100931C00074E76 /* CommonMaskDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F52EC9520F844A7001E8D18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F52ECA020F844A7001E8D18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F52EC7B20F844A6001E8D18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F4A445C2100882300074E76 /* AnimationMask.m in Sources */,
+				6F71D83A20FC9F2000C5789F /* CommonTikTokDetailViewController.m in Sources */,
+				6F52ECB720F845B1001E8D18 /* UIViewController+AnimationTransition.m in Sources */,
+				6F4A44612100930E00074E76 /* CommonMaskViewController.m in Sources */,
+				6F71D82B20FC740500C5789F /* AnimationEffects.m in Sources */,
+				6F52EC8720F844A6001E8D18 /* ViewController.m in Sources */,
+				6F52EC9220F844A7001E8D18 /* main.m in Sources */,
+				6F52ECC820F88089001E8D18 /* CommonMagicMoveAnimationViewController.m in Sources */,
+				6F4A44662100931C00074E76 /* CommonMaskDetailViewController.m in Sources */,
+				6F52EC8420F844A6001E8D18 /* AppDelegate.m in Sources */,
+				6F71D82820FC700900C5789F /* AnimationSmooth.m in Sources */,
+				6F52ECBE20F849A0001E8D18 /* AnimationInteractiveTransition.m in Sources */,
+				6F52ECBA20F845F4001E8D18 /* UINavigationController+AnimationTransition.m in Sources */,
+				6F5EBC1020FDDCAF0052F8EA /* CommonTikTokDetailCollectionViewCell.m in Sources */,
+				6F71D83620FC9E3800C5789F /* CommonTikTokCommentViewController.m in Sources */,
+				6F52ECC320F87F1A001E8D18 /* AnimationMagicMove.m in Sources */,
+				6F5EBC1420FDEDF30052F8EA /* AnimationTikTok.m in Sources */,
+				6F71D83020FC7C1D00C5789F /* CommonSmoothViewController.m in Sources */,
+				6F52ECD320F88AD1001E8D18 /* CommonMagicMoveCollectionViewCell.m in Sources */,
+				6F52ECCE20F888E7001E8D18 /* CommonMagicMoveDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F52EC9320F844A7001E8D18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F52EC9C20F844A7001E8D18 /* AnimationTransitionDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F52EC9E20F844A7001E8D18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F52ECA720F844A7001E8D18 /* AnimationTransitionDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F52EC9920F844A7001E8D18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F52EC7E20F844A6001E8D18 /* AnimationTransitionDemo */;
+			targetProxy = 6F52EC9820F844A7001E8D18 /* PBXContainerItemProxy */;
+		};
+		6F52ECA420F844A7001E8D18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F52EC7E20F844A6001E8D18 /* AnimationTransitionDemo */;
+			targetProxy = 6F52ECA320F844A7001E8D18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F52EC8820F844A6001E8D18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F52EC8920F844A6001E8D18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F52EC8D20F844A7001E8D18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F52EC8E20F844A7001E8D18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F52ECA920F844A7001E8D18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6F52ECAA20F844A7001E8D18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F52ECAC20F844A7001E8D18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KG6ZTEXK44;
+				INFOPLIST_FILE = AnimationTransitionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = songpeng.AnimationTransitionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F52ECAD20F844A7001E8D18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KG6ZTEXK44;
+				INFOPLIST_FILE = AnimationTransitionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = songpeng.AnimationTransitionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6F52ECAF20F844A7001E8D18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnimationTransitionDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = songpeng.AnimationTransitionDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimationTransitionDemo.app/AnimationTransitionDemo";
+			};
+			name = Debug;
+		};
+		6F52ECB020F844A7001E8D18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnimationTransitionDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = songpeng.AnimationTransitionDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimationTransitionDemo.app/AnimationTransitionDemo";
+			};
+			name = Release;
+		};
+		6F52ECB220F844A7001E8D18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnimationTransitionDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = songpeng.AnimationTransitionDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnimationTransitionDemo;
+			};
+			name = Debug;
+		};
+		6F52ECB320F844A7001E8D18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnimationTransitionDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = songpeng.AnimationTransitionDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnimationTransitionDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F52EC7A20F844A6001E8D18 /* Build configuration list for PBXProject "AnimationTransitionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F52ECA920F844A7001E8D18 /* Debug */,
+				6F52ECAA20F844A7001E8D18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F52ECAB20F844A7001E8D18 /* Build configuration list for PBXNativeTarget "AnimationTransitionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F52ECAC20F844A7001E8D18 /* Debug */,
+				6F52ECAD20F844A7001E8D18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F52ECAE20F844A7001E8D18 /* Build configuration list for PBXNativeTarget "AnimationTransitionDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F52ECAF20F844A7001E8D18 /* Debug */,
+				6F52ECB020F844A7001E8D18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F52ECB120F844A7001E8D18 /* Build configuration list for PBXNativeTarget "AnimationTransitionDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F52ECB220F844A7001E8D18 /* Debug */,
+				6F52ECB320F844A7001E8D18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F52EC7720F844A6001E8D18 /* Project object */;
+}
