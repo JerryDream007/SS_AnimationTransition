@@ -59,13 +59,13 @@ static char * const InteractiveTransitionKey = "InteractiveTransitionKey";
         
         [self smooth_presentViewController:viewController];
         
-    }else if (type == KAnimationTransitionTypeMagicMove){
-        
-        [self magicMove_presentViewController:viewController];
-        
     }else if (type == KAnimationTransitionTypeTikTokComment){
         
         [self tikTokComment_presentViewController:viewController];
+        
+    }else{
+        
+        [self none_presentViewController:viewController];
     }
 }
 

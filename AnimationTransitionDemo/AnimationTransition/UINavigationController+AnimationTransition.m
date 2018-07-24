@@ -30,6 +30,9 @@
         
     }else if(type == KAnimationTransitionTypeMask){
         [self mask_pushViewController:viewController];
+        
+    }else{
+        [self none_pushViewController:viewController];
     }
 }
 
