@@ -6,26 +6,22 @@
 //  Copyright © 2018年 宋澎. All rights reserved.
 //
 
-#import "AnimationMagicMove.h"
+#import "SS_AnimationMagicMoveEffect.h"
 
-@implementation AnimationMagicMove
+@implementation SS_AnimationMagicMoveEffect
 
 - (instancetype)initWithIsBack:(BOOL)isBack{
-    
     if (self = [super init]) {
         self.isBack = isBack;
     }
-    
     return self;
 }
 
 - (NSTimeInterval)transitionDuration:(id<UIViewControllerContextTransitioning>)transitionContext{
-    
-    return AnimationTransitionDuration;
+    return SS_AnimationTransitionDuration;
 }
 
 - (void)animateTransition:(id<UIViewControllerContextTransitioning>)transitionContext{
-    
     if (self.isBack) {
         [self transitionAnimationWithBack:transitionContext];
     }else{
@@ -45,8 +41,8 @@
     UIView *fromView = fromVC.view;
     UIView *toView = toVC.view;
     
-    UIView *fromTargetView = [fromVC AnimationTransitionTargetView];
-    UIView *toTargetView = [toVC AnimationTransitionTargetView];
+    UIView *fromTargetView = [fromVC SS_AnimationTransitionTargetView];
+    UIView *toTargetView = [toVC SS_AnimationTransitionTargetView];
     
     if (!fromTargetView || !toTargetView) {
         [[transitionContext containerView] addSubview:toView];
@@ -56,31 +52,21 @@
     }
     
     [[transitionContext containerView] addSubview:toView];
-    
     toView.alpha = 0.2;
-    
     UIView *fromSnapShotView = [fromTargetView snapshotViewAfterScreenUpdates:NO];
-    
     [[transitionContext containerView] addSubview:fromSnapShotView];
     
     UIWindow * keyWindow = [UIApplication sharedApplication].keyWindow;
-    
     CGPoint fromTargetPoint = [fromTargetView.superview convertPoint:fromTargetView.frame.origin toView:keyWindow];
-    
     CGPoint toTargetPoint = [toTargetView.superview convertPoint:toTargetView.frame.origin toView:keyWindow];
     
     fromSnapShotView.frame = CGRectMake(fromTargetPoint.x, fromTargetPoint.y, fromTargetView.frame.size.width, fromTargetView.frame.size.height);
-    
     toTargetView.hidden = YES;
 
     [UIView animateWithDuration:[self transitionDuration:transitionContext] animations:^{
-        
         fromSnapShotView.frame = CGRectMake(toTargetPoint.x, toTargetPoint.y, toTargetView.frame.size.width, toTargetView.frame.size.height);
-        
         toView.alpha = 1.0;
-        
     } completion:^(BOOL finished) {
-        
         toTargetView.hidden = NO;
         [transitionContext containerView].backgroundColor = containerViewColor;
         [fromSnapShotView removeFromSuperview];

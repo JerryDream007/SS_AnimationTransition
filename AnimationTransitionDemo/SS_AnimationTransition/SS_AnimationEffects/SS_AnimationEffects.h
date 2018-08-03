@@ -7,19 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIViewController+SS_AnimationTransition.h"
+#import "SS_AnimationTransitionConfig.h"
 
-#import "UIViewController+AnimationTransition.h"
-
-#import "AnimationTransitionConfig.h"
-
-@interface AnimationEffects : NSObject <UIViewControllerAnimatedTransitioning>
+@interface SS_AnimationEffects : NSObject <UIViewControllerAnimatedTransitioning>
 
 @property (nonatomic,assign) BOOL isBack;
-
 @property (nonatomic,strong) NSNumber * testNumber;
 
 - (instancetype)initWithIsBack:(BOOL)isBack;
-
 - (NSInteger)test;
 
 @end

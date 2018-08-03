@@ -13,10 +13,9 @@ NSString * const CommonTikTokDetailCollectionViewCellID = @"CommonTikTokDetailCo
 @interface CommonTikTokDetailCollectionViewCell ()
 
 @property (weak, nonatomic) IBOutlet UIImageView *userImageView;
-
 @property (weak, nonatomic) IBOutlet UILabel *userNickNameLabel;
-
 @property (weak, nonatomic) IBOutlet UILabel *userCommentLabel;
+
 @end
 
 @implementation CommonTikTokDetailCollectionViewCell
@@ -27,13 +26,9 @@ NSString * const CommonTikTokDetailCollectionViewCellID = @"CommonTikTokDetailCo
 }
 
 - (void)setCurrentImageName:(NSString *)currentImageName{
-    
     _currentImageName = currentImageName;
-    
     self.userImageView.image = [UIImage imageNamed:currentImageName];
-    
     self.userNickNameLabel.text = [NSString stringWithFormat:@"昵称%@",currentImageName];
-    
     self.userCommentLabel.text = [NSString stringWithFormat:@"评论%@",currentImageName];
 }
 

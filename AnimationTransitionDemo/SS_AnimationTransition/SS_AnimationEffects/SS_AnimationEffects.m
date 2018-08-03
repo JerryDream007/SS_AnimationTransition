@@ -6,12 +6,11 @@
 //  Copyright © 2018年 宋澎. All rights reserved.
 //
 
-#import "AnimationEffects.h"
+#import "SS_AnimationEffects.h"
 
-@implementation AnimationEffects
+@implementation SS_AnimationEffects
 
 - (instancetype)initWithIsBack:(BOOL)isBack{
-    
     if (self = [super init]) {
         self.isBack = isBack;
     }

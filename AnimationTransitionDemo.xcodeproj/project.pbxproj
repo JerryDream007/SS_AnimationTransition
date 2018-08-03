@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6F4A445C2100882300074E76 /* AnimationMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4A445B2100882300074E76 /* AnimationMask.m */; };
 		6F4A44612100930E00074E76 /* CommonMaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4A445F2100930E00074E76 /* CommonMaskViewController.m */; };
 		6F4A44622100930E00074E76 /* CommonMaskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F4A44602100930E00074E76 /* CommonMaskViewController.xib */; };
 		6F4A44662100931C00074E76 /* CommonMaskDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4A44642100931C00074E76 /* CommonMaskDetailViewController.m */; };
@@ -20,10 +19,6 @@
 		6F52EC9220F844A7001E8D18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F52EC9120F844A7001E8D18 /* main.m */; };
 		6F52EC9C20F844A7001E8D18 /* AnimationTransitionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F52EC9B20F844A7001E8D18 /* AnimationTransitionDemoTests.m */; };
 		6F52ECA720F844A7001E8D18 /* AnimationTransitionDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F52ECA620F844A7001E8D18 /* AnimationTransitionDemoUITests.m */; };
-		6F52ECB720F845B1001E8D18 /* UIViewController+AnimationTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F52ECB620F845B1001E8D18 /* UIViewController+AnimationTransition.m */; };
-		6F52ECBA20F845F4001E8D18 /* UINavigationController+AnimationTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F52ECB920F845F4001E8D18 /* UINavigationController+AnimationTransition.m */; };
-		6F52ECBE20F849A0001E8D18 /* AnimationInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F52ECBD20F849A0001E8D18 /* AnimationInteractiveTransition.m */; };
-		6F52ECC320F87F1A001E8D18 /* AnimationMagicMove.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F52ECC220F87F1A001E8D18 /* AnimationMagicMove.m */; };
 		6F52ECC820F88089001E8D18 /* CommonMagicMoveAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F52ECC620F88089001E8D18 /* CommonMagicMoveAnimationViewController.m */; };
 		6F52ECC920F88089001E8D18 /* CommonMagicMoveAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F52ECC720F88089001E8D18 /* CommonMagicMoveAnimationViewController.xib */; };
 		6F52ECCE20F888E7001E8D18 /* CommonMagicMoveDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F52ECCC20F888E7001E8D18 /* CommonMagicMoveDetailViewController.m */; };
@@ -32,14 +27,19 @@
 		6F52ECD420F88AD1001E8D18 /* CommonMagicMoveCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F52ECD220F88AD1001E8D18 /* CommonMagicMoveCollectionViewCell.xib */; };
 		6F5EBC1020FDDCAF0052F8EA /* CommonTikTokDetailCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5EBC0E20FDDCAF0052F8EA /* CommonTikTokDetailCollectionViewCell.m */; };
 		6F5EBC1120FDDCAF0052F8EA /* CommonTikTokDetailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F5EBC0F20FDDCAF0052F8EA /* CommonTikTokDetailCollectionViewCell.xib */; };
-		6F5EBC1420FDEDF30052F8EA /* AnimationTikTok.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5EBC1320FDEDF30052F8EA /* AnimationTikTok.m */; };
-		6F71D82820FC700900C5789F /* AnimationSmooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F71D82720FC700900C5789F /* AnimationSmooth.m */; };
-		6F71D82B20FC740500C5789F /* AnimationEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F71D82A20FC740500C5789F /* AnimationEffects.m */; };
 		6F71D83020FC7C1D00C5789F /* CommonSmoothViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F71D82E20FC7C1D00C5789F /* CommonSmoothViewController.m */; };
 		6F71D83120FC7C1D00C5789F /* CommonSmoothViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F71D82F20FC7C1D00C5789F /* CommonSmoothViewController.xib */; };
 		6F71D83620FC9E3800C5789F /* CommonTikTokCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F71D83420FC9E3800C5789F /* CommonTikTokCommentViewController.m */; };
 		6F71D83720FC9E3800C5789F /* CommonTikTokCommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F71D83520FC9E3800C5789F /* CommonTikTokCommentViewController.xib */; };
 		6F71D83A20FC9F2000C5789F /* CommonTikTokDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F71D83920FC9F2000C5789F /* CommonTikTokDetailViewController.m */; };
+		6F7EA09921144F1C0090C500 /* UINavigationController+SS_AnimationTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7EA08721144F1B0090C500 /* UINavigationController+SS_AnimationTransition.m */; };
+		6F7EA09A21144F1C0090C500 /* SS_AnimationEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7EA08B21144F1B0090C500 /* SS_AnimationEffects.m */; };
+		6F7EA09B21144F1C0090C500 /* SS_AnimationSmoothEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7EA08C21144F1B0090C500 /* SS_AnimationSmoothEffect.m */; };
+		6F7EA09C21144F1C0090C500 /* SS_AnimationMagicMoveEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7EA08E21144F1B0090C500 /* SS_AnimationMagicMoveEffect.m */; };
+		6F7EA09D21144F1C0090C500 /* SS_AnimationTikTokEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7EA08F21144F1B0090C500 /* SS_AnimationTikTokEffect.m */; };
+		6F7EA09E21144F1C0090C500 /* SS_AnimationMaskEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7EA09221144F1B0090C500 /* SS_AnimationMaskEffect.m */; };
+		6F7EA09F21144F1C0090C500 /* SS_AnimationInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7EA09521144F1B0090C500 /* SS_AnimationInteractiveTransition.m */; };
+		6F7EA0A021144F1C0090C500 /* UIViewController+SS_AnimationTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7EA09621144F1B0090C500 /* UIViewController+SS_AnimationTransition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,8 +60,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6F4A445A2100882300074E76 /* AnimationMask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationMask.h; sourceTree = "<group>"; };
-		6F4A445B2100882300074E76 /* AnimationMask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationMask.m; sourceTree = "<group>"; };
 		6F4A445E2100930E00074E76 /* CommonMaskViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonMaskViewController.h; sourceTree = "<group>"; };
 		6F4A445F2100930E00074E76 /* CommonMaskViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonMaskViewController.m; sourceTree = "<group>"; };
 		6F4A44602100930E00074E76 /* CommonMaskViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommonMaskViewController.xib; sourceTree = "<group>"; };
@@ -84,16 +82,6 @@
 		6F52ECA220F844A7001E8D18 /* AnimationTransitionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationTransitionDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F52ECA620F844A7001E8D18 /* AnimationTransitionDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationTransitionDemoUITests.m; sourceTree = "<group>"; };
 		6F52ECA820F844A7001E8D18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6F52ECB520F845B1001E8D18 /* UIViewController+AnimationTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AnimationTransition.h"; sourceTree = "<group>"; };
-		6F52ECB620F845B1001E8D18 /* UIViewController+AnimationTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AnimationTransition.m"; sourceTree = "<group>"; };
-		6F52ECB820F845F4001E8D18 /* UINavigationController+AnimationTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+AnimationTransition.h"; sourceTree = "<group>"; };
-		6F52ECB920F845F4001E8D18 /* UINavigationController+AnimationTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+AnimationTransition.m"; sourceTree = "<group>"; };
-		6F52ECBB20F8466C001E8D18 /* AnimationTransitionConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationTransitionConfig.h; sourceTree = "<group>"; };
-		6F52ECBC20F849A0001E8D18 /* AnimationInteractiveTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationInteractiveTransition.h; sourceTree = "<group>"; };
-		6F52ECBD20F849A0001E8D18 /* AnimationInteractiveTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationInteractiveTransition.m; sourceTree = "<group>"; };
-		6F52ECBF20F87D2D001E8D18 /* AnimationTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationTransition.h; sourceTree = "<group>"; };
-		6F52ECC120F87F1A001E8D18 /* AnimationMagicMove.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationMagicMove.h; sourceTree = "<group>"; };
-		6F52ECC220F87F1A001E8D18 /* AnimationMagicMove.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationMagicMove.m; sourceTree = "<group>"; };
 		6F52ECC520F88089001E8D18 /* CommonMagicMoveAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonMagicMoveAnimationViewController.h; sourceTree = "<group>"; };
 		6F52ECC620F88089001E8D18 /* CommonMagicMoveAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonMagicMoveAnimationViewController.m; sourceTree = "<group>"; };
 		6F52ECC720F88089001E8D18 /* CommonMagicMoveAnimationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommonMagicMoveAnimationViewController.xib; sourceTree = "<group>"; };
@@ -106,12 +94,6 @@
 		6F5EBC0D20FDDCAF0052F8EA /* CommonTikTokDetailCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonTikTokDetailCollectionViewCell.h; sourceTree = "<group>"; };
 		6F5EBC0E20FDDCAF0052F8EA /* CommonTikTokDetailCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonTikTokDetailCollectionViewCell.m; sourceTree = "<group>"; };
 		6F5EBC0F20FDDCAF0052F8EA /* CommonTikTokDetailCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommonTikTokDetailCollectionViewCell.xib; sourceTree = "<group>"; };
-		6F5EBC1220FDEDF30052F8EA /* AnimationTikTok.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationTikTok.h; sourceTree = "<group>"; };
-		6F5EBC1320FDEDF30052F8EA /* AnimationTikTok.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationTikTok.m; sourceTree = "<group>"; };
-		6F71D82620FC700900C5789F /* AnimationSmooth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationSmooth.h; sourceTree = "<group>"; };
-		6F71D82720FC700900C5789F /* AnimationSmooth.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationSmooth.m; sourceTree = "<group>"; };
-		6F71D82920FC740500C5789F /* AnimationEffects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationEffects.h; sourceTree = "<group>"; };
-		6F71D82A20FC740500C5789F /* AnimationEffects.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationEffects.m; sourceTree = "<group>"; };
 		6F71D82D20FC7C1D00C5789F /* CommonSmoothViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonSmoothViewController.h; sourceTree = "<group>"; };
 		6F71D82E20FC7C1D00C5789F /* CommonSmoothViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonSmoothViewController.m; sourceTree = "<group>"; };
 		6F71D82F20FC7C1D00C5789F /* CommonSmoothViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommonSmoothViewController.xib; sourceTree = "<group>"; };
@@ -120,6 +102,24 @@
 		6F71D83520FC9E3800C5789F /* CommonTikTokCommentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommonTikTokCommentViewController.xib; sourceTree = "<group>"; };
 		6F71D83820FC9F2000C5789F /* CommonTikTokDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonTikTokDetailViewController.h; sourceTree = "<group>"; };
 		6F71D83920FC9F2000C5789F /* CommonTikTokDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonTikTokDetailViewController.m; sourceTree = "<group>"; };
+		6F7EA08621144F1B0090C500 /* SS_AnimationInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SS_AnimationInteractiveTransition.h; sourceTree = "<group>"; };
+		6F7EA08721144F1B0090C500 /* UINavigationController+SS_AnimationTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+SS_AnimationTransition.m"; sourceTree = "<group>"; };
+		6F7EA08821144F1B0090C500 /* SS_AnimationTransitionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SS_AnimationTransitionConfig.h; sourceTree = "<group>"; };
+		6F7EA08921144F1B0090C500 /* UIViewController+SS_AnimationTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SS_AnimationTransition.h"; sourceTree = "<group>"; };
+		6F7EA08B21144F1B0090C500 /* SS_AnimationEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SS_AnimationEffects.m; sourceTree = "<group>"; };
+		6F7EA08C21144F1B0090C500 /* SS_AnimationSmoothEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SS_AnimationSmoothEffect.m; sourceTree = "<group>"; };
+		6F7EA08D21144F1B0090C500 /* SS_AnimationMaskEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SS_AnimationMaskEffect.h; sourceTree = "<group>"; };
+		6F7EA08E21144F1B0090C500 /* SS_AnimationMagicMoveEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SS_AnimationMagicMoveEffect.m; sourceTree = "<group>"; };
+		6F7EA08F21144F1B0090C500 /* SS_AnimationTikTokEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SS_AnimationTikTokEffect.m; sourceTree = "<group>"; };
+		6F7EA09021144F1B0090C500 /* SS_AnimationSmoothEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SS_AnimationSmoothEffect.h; sourceTree = "<group>"; };
+		6F7EA09121144F1B0090C500 /* SS_AnimationEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SS_AnimationEffects.h; sourceTree = "<group>"; };
+		6F7EA09221144F1B0090C500 /* SS_AnimationMaskEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SS_AnimationMaskEffect.m; sourceTree = "<group>"; };
+		6F7EA09321144F1B0090C500 /* SS_AnimationMagicMoveEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SS_AnimationMagicMoveEffect.h; sourceTree = "<group>"; };
+		6F7EA09421144F1B0090C500 /* SS_AnimationTikTokEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SS_AnimationTikTokEffect.h; sourceTree = "<group>"; };
+		6F7EA09521144F1B0090C500 /* SS_AnimationInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SS_AnimationInteractiveTransition.m; sourceTree = "<group>"; };
+		6F7EA09621144F1B0090C500 /* UIViewController+SS_AnimationTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SS_AnimationTransition.m"; sourceTree = "<group>"; };
+		6F7EA09721144F1B0090C500 /* UINavigationController+SS_AnimationTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+SS_AnimationTransition.h"; sourceTree = "<group>"; };
+		6F7EA09821144F1B0090C500 /* SS_AnimationTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SS_AnimationTransition.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,7 +183,7 @@
 		6F52EC8120F844A6001E8D18 /* AnimationTransitionDemo */ = {
 			isa = PBXGroup;
 			children = (
-				6F52ECB420F844B9001E8D18 /* AnimationTransition */,
+				6F7EA08521144F1B0090C500 /* SS_AnimationTransition */,
 				6F52ECC420F8801D001E8D18 /* CommonTransitionAnimation */,
 				6F52EC8220F844A6001E8D18 /* AppDelegate.h */,
 				6F52EC8320F844A6001E8D18 /* AppDelegate.m */,
@@ -214,39 +214,6 @@
 				6F52ECA820F844A7001E8D18 /* Info.plist */,
 			);
 			path = AnimationTransitionDemoUITests;
-			sourceTree = "<group>";
-		};
-		6F52ECB420F844B9001E8D18 /* AnimationTransition */ = {
-			isa = PBXGroup;
-			children = (
-				6F52ECC020F87EBA001E8D18 /* AnimationEffects */,
-				6F52ECBF20F87D2D001E8D18 /* AnimationTransition.h */,
-				6F52ECBB20F8466C001E8D18 /* AnimationTransitionConfig.h */,
-				6F52ECB520F845B1001E8D18 /* UIViewController+AnimationTransition.h */,
-				6F52ECB620F845B1001E8D18 /* UIViewController+AnimationTransition.m */,
-				6F52ECB820F845F4001E8D18 /* UINavigationController+AnimationTransition.h */,
-				6F52ECB920F845F4001E8D18 /* UINavigationController+AnimationTransition.m */,
-				6F52ECBC20F849A0001E8D18 /* AnimationInteractiveTransition.h */,
-				6F52ECBD20F849A0001E8D18 /* AnimationInteractiveTransition.m */,
-			);
-			path = AnimationTransition;
-			sourceTree = "<group>";
-		};
-		6F52ECC020F87EBA001E8D18 /* AnimationEffects */ = {
-			isa = PBXGroup;
-			children = (
-				6F71D82920FC740500C5789F /* AnimationEffects.h */,
-				6F71D82A20FC740500C5789F /* AnimationEffects.m */,
-				6F52ECC120F87F1A001E8D18 /* AnimationMagicMove.h */,
-				6F52ECC220F87F1A001E8D18 /* AnimationMagicMove.m */,
-				6F71D82620FC700900C5789F /* AnimationSmooth.h */,
-				6F71D82720FC700900C5789F /* AnimationSmooth.m */,
-				6F5EBC1220FDEDF30052F8EA /* AnimationTikTok.h */,
-				6F5EBC1320FDEDF30052F8EA /* AnimationTikTok.m */,
-				6F4A445A2100882300074E76 /* AnimationMask.h */,
-				6F4A445B2100882300074E76 /* AnimationMask.m */,
-			);
-			path = AnimationEffects;
 			sourceTree = "<group>";
 		};
 		6F52ECC420F8801D001E8D18 /* CommonTransitionAnimation */ = {
@@ -299,6 +266,39 @@
 				6F5EBC0F20FDDCAF0052F8EA /* CommonTikTokDetailCollectionViewCell.xib */,
 			);
 			path = TikTokComment;
+			sourceTree = "<group>";
+		};
+		6F7EA08521144F1B0090C500 /* SS_AnimationTransition */ = {
+			isa = PBXGroup;
+			children = (
+				6F7EA08A21144F1B0090C500 /* SS_AnimationEffects */,
+				6F7EA08621144F1B0090C500 /* SS_AnimationInteractiveTransition.h */,
+				6F7EA08721144F1B0090C500 /* UINavigationController+SS_AnimationTransition.m */,
+				6F7EA08821144F1B0090C500 /* SS_AnimationTransitionConfig.h */,
+				6F7EA08921144F1B0090C500 /* UIViewController+SS_AnimationTransition.h */,
+				6F7EA09521144F1B0090C500 /* SS_AnimationInteractiveTransition.m */,
+				6F7EA09621144F1B0090C500 /* UIViewController+SS_AnimationTransition.m */,
+				6F7EA09721144F1B0090C500 /* UINavigationController+SS_AnimationTransition.h */,
+				6F7EA09821144F1B0090C500 /* SS_AnimationTransition.h */,
+			);
+			path = SS_AnimationTransition;
+			sourceTree = "<group>";
+		};
+		6F7EA08A21144F1B0090C500 /* SS_AnimationEffects */ = {
+			isa = PBXGroup;
+			children = (
+				6F7EA08B21144F1B0090C500 /* SS_AnimationEffects.m */,
+				6F7EA08C21144F1B0090C500 /* SS_AnimationSmoothEffect.m */,
+				6F7EA08D21144F1B0090C500 /* SS_AnimationMaskEffect.h */,
+				6F7EA08E21144F1B0090C500 /* SS_AnimationMagicMoveEffect.m */,
+				6F7EA08F21144F1B0090C500 /* SS_AnimationTikTokEffect.m */,
+				6F7EA09021144F1B0090C500 /* SS_AnimationSmoothEffect.h */,
+				6F7EA09121144F1B0090C500 /* SS_AnimationEffects.h */,
+				6F7EA09221144F1B0090C500 /* SS_AnimationMaskEffect.m */,
+				6F7EA09321144F1B0090C500 /* SS_AnimationMagicMoveEffect.h */,
+				6F7EA09421144F1B0090C500 /* SS_AnimationTikTokEffect.h */,
+			);
+			path = SS_AnimationEffects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -439,26 +439,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F4A445C2100882300074E76 /* AnimationMask.m in Sources */,
 				6F71D83A20FC9F2000C5789F /* CommonTikTokDetailViewController.m in Sources */,
-				6F52ECB720F845B1001E8D18 /* UIViewController+AnimationTransition.m in Sources */,
 				6F4A44612100930E00074E76 /* CommonMaskViewController.m in Sources */,
-				6F71D82B20FC740500C5789F /* AnimationEffects.m in Sources */,
+				6F7EA09C21144F1C0090C500 /* SS_AnimationMagicMoveEffect.m in Sources */,
 				6F52EC8720F844A6001E8D18 /* ViewController.m in Sources */,
 				6F52EC9220F844A7001E8D18 /* main.m in Sources */,
 				6F52ECC820F88089001E8D18 /* CommonMagicMoveAnimationViewController.m in Sources */,
 				6F4A44662100931C00074E76 /* CommonMaskDetailViewController.m in Sources */,
+				6F7EA09F21144F1C0090C500 /* SS_AnimationInteractiveTransition.m in Sources */,
 				6F52EC8420F844A6001E8D18 /* AppDelegate.m in Sources */,
-				6F71D82820FC700900C5789F /* AnimationSmooth.m in Sources */,
-				6F52ECBE20F849A0001E8D18 /* AnimationInteractiveTransition.m in Sources */,
-				6F52ECBA20F845F4001E8D18 /* UINavigationController+AnimationTransition.m in Sources */,
+				6F7EA09921144F1C0090C500 /* UINavigationController+SS_AnimationTransition.m in Sources */,
 				6F5EBC1020FDDCAF0052F8EA /* CommonTikTokDetailCollectionViewCell.m in Sources */,
 				6F71D83620FC9E3800C5789F /* CommonTikTokCommentViewController.m in Sources */,
-				6F52ECC320F87F1A001E8D18 /* AnimationMagicMove.m in Sources */,
-				6F5EBC1420FDEDF30052F8EA /* AnimationTikTok.m in Sources */,
 				6F71D83020FC7C1D00C5789F /* CommonSmoothViewController.m in Sources */,
+				6F7EA09B21144F1C0090C500 /* SS_AnimationSmoothEffect.m in Sources */,
+				6F7EA09A21144F1C0090C500 /* SS_AnimationEffects.m in Sources */,
+				6F7EA09D21144F1C0090C500 /* SS_AnimationTikTokEffect.m in Sources */,
+				6F7EA0A021144F1C0090C500 /* UIViewController+SS_AnimationTransition.m in Sources */,
 				6F52ECD320F88AD1001E8D18 /* CommonMagicMoveCollectionViewCell.m in Sources */,
 				6F52ECCE20F888E7001E8D18 /* CommonMagicMoveDetailViewController.m in Sources */,
+				6F7EA09E21144F1C0090C500 /* SS_AnimationMaskEffect.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

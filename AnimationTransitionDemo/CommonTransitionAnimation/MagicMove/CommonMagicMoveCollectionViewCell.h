@@ -13,7 +13,6 @@ extern NSString * const CommonMagicMoveCollectionViewCellID;
 @interface CommonMagicMoveCollectionViewCell : UICollectionViewCell
 
 @property (weak, nonatomic) IBOutlet UIImageView *bgImageView;
-
 @property (nonatomic,copy) NSString * currentImageName;
 
 @end

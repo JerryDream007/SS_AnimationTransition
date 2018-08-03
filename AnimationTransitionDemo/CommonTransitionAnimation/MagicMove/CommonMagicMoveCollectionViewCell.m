@@ -23,11 +23,8 @@ NSString * const CommonMagicMoveCollectionViewCellID = @"CommonMagicMoveCollecti
 }
 
 - (void)setCurrentImageName:(NSString *)currentImageName{
-    
     _currentImageName = currentImageName;
-    
     self.bgImageView.image = [UIImage imageNamed:currentImageName];
-    
     self.currentLabel.text = currentImageName;
 }
 

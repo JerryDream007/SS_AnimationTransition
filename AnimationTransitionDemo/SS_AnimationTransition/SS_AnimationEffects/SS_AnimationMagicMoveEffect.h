@@ -6,8 +6,8 @@
 //  Copyright © 2018年 宋澎. All rights reserved.
 //
 
-#import "AnimationEffects.h"
+#import "SS_AnimationEffects.h"
 
-@interface AnimationMagicMove : AnimationEffects
+@interface SS_AnimationMagicMoveEffect : SS_AnimationEffects
 
 @end

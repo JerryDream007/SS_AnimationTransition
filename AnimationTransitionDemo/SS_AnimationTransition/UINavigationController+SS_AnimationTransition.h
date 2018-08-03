@@ -7,11 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SS_AnimationTransitionConfig.h"
 
-#import "AnimationTransitionConfig.h"
+@interface UINavigationController (SS_AnimationTransition)
 
-@interface UINavigationController (AnimationTransition)
-
-- (void)animation_pushViewController:(UIViewController *)viewController type:(KAnimationTransitionType)type;
+- (void)ss_pushViewController:(UIViewController *)viewController type:(KSS_AnimationTransitionType)type;
 
 @end

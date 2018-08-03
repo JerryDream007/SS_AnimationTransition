@@ -7,10 +7,8 @@
 //
 
 #import "CommonTikTokCommentViewController.h"
-
 #import "CommonTikTokDetailViewController.h"
-
-#import "AnimationTransition.h"
+#import "SS_AnimationTransition.h"
 
 @interface CommonTikTokCommentViewController ()
 
@@ -20,14 +18,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     self.title = @"抖音评论效果";
 }
 
 - (IBAction)clickCommentButton:(id)sender {
     CommonTikTokDetailViewController * detailVC = [[CommonTikTokDetailViewController alloc] init];
-    
-    [self animation_presentVC:detailVC type:KAnimationTransitionTypeTikTokComment];
+    [self ss_presentVC:detailVC type:KAnimationTransitionTypeTikTokComment];
 }
 
 - (void)didReceiveMemoryWarning {

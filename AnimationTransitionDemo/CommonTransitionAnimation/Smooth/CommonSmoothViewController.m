@@ -7,8 +7,7 @@
 //
 
 #import "CommonSmoothViewController.h"
-
-#import "AnimationTransition.h"
+#import "SS_AnimationTransition.h"
 
 @interface CommonSmoothViewController ()
 
@@ -18,13 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     self.title = @"平滑移动效果";
 }
 
 #pragma mark - targetView
 
-- (UIView *)AnimationTransitionTargetView{
+- (UIView *)SS_AnimationTransitionTargetView{
     return [UIView new];
 }
 

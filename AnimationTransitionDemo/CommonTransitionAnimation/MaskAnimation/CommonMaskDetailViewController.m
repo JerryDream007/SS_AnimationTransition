@@ -16,7 +16,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     NSLog(@"maskDetailVC : \n self = %@ \n self.view = %@",self,self.view);
 }
 

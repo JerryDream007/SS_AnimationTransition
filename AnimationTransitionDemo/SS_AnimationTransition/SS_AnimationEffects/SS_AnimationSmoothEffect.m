@@ -6,12 +6,12 @@
 //  Copyright © 2018年 宋澎. All rights reserved.
 //
 
-#import "AnimationSmooth.h"
+#import "SS_AnimationSmoothEffect.h"
 
-@implementation AnimationSmooth
+@implementation SS_AnimationSmoothEffect
 
 - (NSTimeInterval)transitionDuration:(id<UIViewControllerContextTransitioning>)transitionContext{
-    return AnimationTransitionDuration;
+    return SS_AnimationTransitionDuration;
 }
 
 - (void)animateTransition:(id<UIViewControllerContextTransitioning>)transitionContext{
