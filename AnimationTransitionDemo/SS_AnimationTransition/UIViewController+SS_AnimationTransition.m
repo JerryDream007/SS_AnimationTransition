@@ -32,7 +32,9 @@ static char * const InteractiveTransitionKey = "InteractiveTransitionKey";
 }
 
 - (void)newViewWillAppear:(BOOL)animated{
-    self.navigationController.delegate = self.animationTransitionDelegate;
+    if (![self isKindOfClass:NSClassFromString(@"PUPhotoPickerHostViewController")]) {
+        self.navigationController.delegate = self.animationTransitionDelegate;
+    }
     [self newViewWillAppear:animated];
 }
 
